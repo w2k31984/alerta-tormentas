@@ -55,7 +55,11 @@ python scripts/validacion_temporal.py
 # 5. Ejecutar predicción de ejemplo
 python scripts/prediccion.py
 
+# 6. Generar metricas ROC para meteorólogos e ingenieros
+python  scripts/generar_roc.py
 
+#7. Dashboard con transparencia del modelo con métricas y gráficas para autoridades e interesados.
+streamlit run dashboard.py
 ## 📎 Archivos Adicionales Recomendados
 
 ### 1. `requirements.txt`
@@ -65,6 +69,7 @@ scikit-learn==1.3.0
 numpy==1.25.2
 joblib==1.3.2
 matplotlib==3.7.2
+
 
 # 📊 Interpretación de Niveles de Alerta
 
