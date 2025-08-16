@@ -58,8 +58,6 @@ python scripts/prediccion.py
 
 ## 📎 Archivos Adicionales Recomendados
 
-Para completar tu documentación, crea estos archivos:
-
 ### 1. `requirements.txt`
 ```text
 pandas==2.0.3
